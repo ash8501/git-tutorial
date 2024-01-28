@@ -1,0 +1,38 @@
+mkdir [directoryName] => make a new directory
+dir => list all files and folders in the current directory
+cd [directoryName] => change directory
+cd.. => move to previous directory
+cd/ => move to root directory
+nul > [fileName.extension]  => create a new file 
+git config --global user.name "Ashish"
+git config --global user.email "ashishsharmavaranasi8@gmail.com"
+git config --list
+code . => open vscode in current folder
+ls => list all files and folders in current folder
+git init => initialize git ( a .git folder is created in the current directory
+git status => shows the status of files that is tracked or untracked
+git add fileName => puts untracked file in staging area
+git commit -m "discription" 
+git add -A => puts all untracked files in staging area
+git checkout "about.html" => undo all changes which are not commited
+git diff => track changes that have not been staged
+git diff --staged => track changes that are in the staging area
+git diff HEAD => track changes after commiting
+git show => shows objects
+git log => to see all commits
+git log -p -2 => to see last 2 commits
+git log --stat
+git rm fileName => deletes a file
+git rm --cached fileName => removes a file from staging area
+git rm -f fileName => deletes a file (fileName) that is in staging area
+git branch --list => list all branches
+git branch branchName => create a new  branch
+git checkout branchName => switch to branchName branch
+git branch D branchName => delete a branch
+git branch d branchName => delete a branch which is merged
+rm fileName => delete a file which is not tracked
+git merge branchName => merge branchName branch to another branch(in which i am right now)
+git checkout -b branchName => create and switch to branchName branch
+git remote add origin url
+git remote -v
+git branch -M main
